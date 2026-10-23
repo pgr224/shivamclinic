@@ -48,7 +48,7 @@ def sync(page):
 <link href="{FONT.replace('&','&amp;')}" rel="stylesheet">
 <link rel="stylesheet" href="{prefix}styles.css"><link rel="stylesheet" href="{prefix}contact-widget.css"><script src="{prefix}script.js" defer></script>
 <link rel="icon" type="image/svg+xml" href="{prefix}assets/icons/favicon.svg"><meta name="theme-color" content="#63344f">
-<link rel="canonical" href="{canonical}"><meta name="robots" content="{'noindex,follow' if rel=='404.html' else 'index,follow'}">
+<link rel="canonical" href="{canonical}"><meta name="robots" content="{'noindex,nofollow' if rel=='404.html' else 'index,follow'}">
 <meta property="og:title" content="{escape(unescape(title))}"><meta property="og:description" content="{description}"><meta property="og:type" content="{'article' if rel.startswith('blog/') and rel!='blog/index.html' else 'website'}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="https://shivamclinic.com/assets/images/skin-banner.jpg"><meta name="twitter:card" content="summary_large_image">\n'''
     text=text.replace('</head>',meta+'</head>')
     if rel=='404.html':
