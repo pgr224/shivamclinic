@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://www.example.com/</loc></url>
-<url><loc>https://www.example.com/about.html</loc></url>
-<url><loc>https://www.example.com/services.html</loc></url>
-<url><loc>https://www.example.com/blog/index.html</loc></url>
-<url><loc>https://www.example.com/blog/managing-seasonal-flu.html</loc></url>
-<url><loc>https://www.example.com/blog/diabetes-diet-basics.html</loc></url>
-<url><loc>https://www.example.com/blog/child-vaccination-guide.html</loc></url>
-<url><loc>https://www.example.com/blog/stress-and-sleep.html</loc></url>
-<url><loc>https://www.example.com/blog/skin-care-monsoon.html</loc></url>
-<url><loc>https://www.example.com/blog/importance-of-health-checkups.html</loc></url>
-<url><loc>https://www.example.com/faq.html</loc></url>
-<url><loc>https://www.example.com/contact.html</loc></url>
-<url><loc>https://www.example.com/privacy.html</loc></url>
-<url><loc>https://www.example.com/terms.html</loc></url>
-<url><loc>https://www.example.com/sitemap.html</loc></url>
+  <url><loc>https://shivamclinic.com/about.html</loc></url>
+  <url><loc>https://shivamclinic.com/aesthetic-treatments.html</loc></url>
+  <url><loc>https://shivamclinic.com/appointment.html</loc></url>
+  <url><loc>https://shivamclinic.com/blog/child-vaccination-guide.html</loc></url>
+  <url><loc>https://shivamclinic.com/blog/diabetes-diet-basics.html</loc></url>
+  <url><loc>https://shivamclinic.com/blog/importance-of-health-checkups.html</loc></url>
+  <url><loc>https://shivamclinic.com/blog/</loc></url>
+  <url><loc>https://shivamclinic.com/blog/managing-seasonal-flu.html</loc></url>
+  <url><loc>https://shivamclinic.com/blog/skin-care-monsoon.html</loc></url>
+  <url><loc>https://shivamclinic.com/blog/stress-and-sleep.html</loc></url>
+  <url><loc>https://shivamclinic.com/contact.html</loc></url>
+  <url><loc>https://shivamclinic.com/facials.html</loc></url>
+  <url><loc>https://shivamclinic.com/faq.html</loc></url>
+  <url><loc>https://shivamclinic.com/gallery.html</loc></url>
+  <url><loc>https://shivamclinic.com/general-physician.html</loc></url>
+  <url><loc>https://shivamclinic.com/</loc></url>
+  <url><loc>https://shivamclinic.com/patient-guide.html</loc></url>
+  <url><loc>https://shivamclinic.com/privacy.html</loc></url>
+  <url><loc>https://shivamclinic.com/services.html</loc></url>
+  <url><loc>https://shivamclinic.com/sitemap.html</loc></url>
+  <url><loc>https://shivamclinic.com/skin-hair-care.html</loc></url>
+  <url><loc>https://shivamclinic.com/surgical-dermatology.html</loc></url>
+  <url><loc>https://shivamclinic.com/terms.html</loc></url>
 </urlset>
