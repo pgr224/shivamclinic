@@ -335,3 +335,32 @@ h1, h2, h3 { font-family: var(--serif); }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
 }
+
+/* Visual refinement: presentation only; preserve content and clinic details */
+:root{--paper:#fffdfb;--green:#205a51;--green-deep:#123d38;--ink:#183b38;--ink-soft:#60736f;--line:#e5ebe7}
+body{letter-spacing:.005em}
+.container{width:min(1200px,calc(100% - 40px))}
+.site-header{box-shadow:0 8px 30px rgba(15,56,47,.045)}
+.nav-wrap{min-height:76px}
+.site-nav>a:not(.button){padding:9px 0;position:relative}
+.site-nav>a:not(.button)::after{content:"";position:absolute;left:0;bottom:3px;width:0;height:2px;background:#b88460;transition:width .25s}
+.site-nav>a:not(.button):hover::after{width:100%}
+.button{border-radius:12px;box-shadow:0 9px 24px rgba(24,72,61,.12);transition:transform .22s,box-shadow .22s,background .22s}
+.button:hover{transform:translateY(-3px);box-shadow:0 14px 28px rgba(24,72,61,.17)}
+.hero{background:radial-gradient(circle at 83% 24%,#f1e9de 0,transparent 34%),linear-gradient(145deg,#fffdfb,#f5f8f3);padding-block:86px 94px}
+.hero h1,.page-hero h1{letter-spacing:-.055em}
+.hero-art,.about-photo,.story-image{filter:drop-shadow(0 20px 30px rgba(24,59,54,.10))}
+.hero-image{border-radius:46% 46% 16px 16px}
+.image-caption,.photo-tag,.story-quote{border-radius:12px}
+.section{padding-block:104px}
+.service-card,.detail-art{border-radius:18px;overflow:hidden}
+.service-card{border:1px solid rgba(24,59,54,.055);box-shadow:0 9px 25px rgba(24,59,54,.045);transition:transform .28s,box-shadow .28s}
+.service-card:hover{transform:translateY(-7px);box-shadow:0 22px 40px rgba(24,59,54,.12)}
+.page-hero{border-bottom:1px solid rgba(24,59,54,.06)}
+.breadcrumbs{font-size:13px;align-items:center;flex-wrap:wrap}
+.breadcrumbs a{text-decoration:underline;text-underline-offset:4px}
+input,textarea,select{border-radius:10px}
+img{height:auto}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #b88460;outline-offset:3px}
+@media(max-width:768px){.container{width:min(100% - 32px,1200px)}.hero{padding-block:48px 60px}.hero-art{max-width:500px;margin-inline:auto}.service-card{min-height:280px}.section{padding-block:65px}.hero-stamp{right:0}.photo-tag,.story-quote{right:0}.site-nav{z-index:20}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
